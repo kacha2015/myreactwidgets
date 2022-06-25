@@ -13,3 +13,9 @@ Basic.args = {
     size: 'normal',
     allCaps: false // true: capitalizar toda la palabra
 }
+
+export const Secondary = Template.bind({});
+Secondary.args = {
+    size: 'normal',
+    color: 'secondary' // primary | secondary | tertiary
+}
